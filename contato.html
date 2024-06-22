@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Letícia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
-<body>
+<div>
 
-    <ol>
-        <li><a href="index.html"> Sobre Killjoy </a></li>
-        <li><a href="cypher.html"> Sobre Cypher </a></li>
-        <li><a href="dead.html"> Sobre Deadlock </a></li>
-        <li><a href="contato.html"> Contate Letícia </a></li>
-     </ol>
+    <ul id="menu">
+        <li><a href="index.html"> Killjoy </a></li>
+        <li><a href="cypher.html"> Cypher </a></li>
+        <li><a href="dead.html"> Deadlock </a></li>
+        <li><a href="contato.html"> Contato </a></li>
+    </ul>
 
-   <p><h1>Minhas Redes:</h1></p>
+    <div class="fundocontato">
+    <h1 class="p-30 fontesobremim">Sobre mim:</h1>
 
-   <ul>
-    <li><a href="https://www.linkedin.com/in/leticiappv/"> Linkedin </a></li>
-    <li><a href="https://github.com/"> GitHub </a></li>
-    <li><a href="https://www.facebook.com/leticia.pinheiro.14606/"> Facebook </a></li>
- </ul>
+<div class="containercontato">
+    <div class="pcontato">
+    <img class="br-50" src="assets/img/Foto minha.jpeg" alt="Foto de Letícia">
+    </div>
 
-    <h2>Sobre mim:</h2>
-
-     <img src="assets/img/Foto minha.jpeg" alt="Foto de Letícia">
-
-    <p> Me chamo Letícia Pinheiro, tenho 19 anos, sou de São Paulo e moro em Suzano. 
+    <div>
+    <p class="pcontato"> Me chamo Letícia Pinheiro, tenho 19 anos, sou de São Paulo e moro em Suzano. 
         Atualmente, estou no início da minha jornada na área da tecnologia como estudante. 
         Em 2023, terminei o ensino médio com técnico em nutrição. 
         No entanto, no meio de 2023, comecei a perceber que era na área da tecnologia que meus olhos brilhavam. 
@@ -38,11 +38,27 @@
         MySQL para Banco de Dados, HTML, CSS, React no Front e Git para o versionamento de código. Busco trazer criatividade
         e inovação para o mundo da tecnologia, além de mais brilho nos olhos com minhas contribuições.
     </p>
+    </div>
+</div>
 
     <br>
-    <h2>Entre em Contato Comigo!</h2>
 
-     <form> 
+
+    <p><h2 class="center p-30 fontecontato">Minhas Redes:</h2></p>
+
+    <div class="containercontato">
+<ul>
+    <li><a src="assets/img/linkedin.png" href="https://www.linkedin.com/in/leticiappv/"> Linkedin </a></li>
+    <li><a src="assets/img/github.png" href="https://github.com/"> GitHub </a></li>
+    <li><a src="assets/img/facebook.png" href="https://www.facebook.com/leticia.pinheiro.14606/"> Facebook </a></li>
+</ul>
+</div>
+
+<br>
+
+    <h2 class="center p-30 fontecontato">Entre em Contato Comigo!</h2>
+
+    <form class="center p-30 par"> 
         <label for="nome">Nome:</label> <br>
         <input type="text" id="nome">
         <br>
@@ -57,15 +73,18 @@
         <br>
         <button>Enviar</button>
 
-     </form>
+    </form>
 
-     <br>
-     <br>
-     <h2>Endereço:</h2>
+    <br>
+
+    <div class="center p-30 par">
+    <h2 class="fontecontato">Endereço:</h2>
     <p> Av. Paulista, 1000.</p>
     <p>São Paulo, SP.</p>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0980324107018!2d-46.65451252489086!3d-23.564922378797387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1718387835307!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
+</div>
 </body>
 </html>

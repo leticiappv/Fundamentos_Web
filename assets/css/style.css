@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+
+.fundopag2{
+    background-color: rgb(129, 185, 211);
+}
+
+.fundopag{
+    background-color: rgb(46, 99, 123);
+}
+
+.letrabranca {
+    color: whitesmoke;
+}
+
+/* Estilos da Página index.html, cypher.html e dead.html  */
+
+.center{
+    text-align: center;
+}
+
+.container {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.paragrafo {
+
+    font-size: 25px;
+}
+
+.fontesubtitulo {
+    font-size: 35px;
+}
+
+.fontetitulo {
+    font-size: 50px;
+}
+
+.par {
+
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* ESTILO MENU*/
+
+#menu {
+    list-style: none;
+    padding:0;
+    background-color: rgb(9, 6, 6);
+
+}
+
+
+#menu li{
+    display: inline;
+}
+
+#menu li a {
+    color:whitesmoke;
+    padding: 100px;
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+
+}
+
+#menu li a:hover{
+
+    color: brown;
+}
+/* ESTILO MENU*/
+
+
+
+
+/* Estilos da Página contato.html */
+
+.containercontato {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.pcontato {
+
+    padding: 30px;
+}
+
+.br-50 {
+
+    border-radius: 50%;
+}
+
+.fontesobremim {
+    font-size: 50px;
+}
+
+.fontecontato {
+    font-size: 35px;
+}
+
+.fundocontato{
+    background-color: rgb(167, 205, 222);
+}
