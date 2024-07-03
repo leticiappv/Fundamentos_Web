@@ -15,6 +15,10 @@
     background-color: rgb(46, 99, 123);
 }
 
+.fundovideo{
+    background-color: rgb(23, 47, 58);
+}
+
 .letrabranca {
     color: whitesmoke;
 }
@@ -124,4 +128,11 @@
 
 .fundocontato{
     background-color: rgb(167, 205, 222);
+}
+
+.btn-enviar {
+    width: 120px; /* Ajuste a largura conforme necessário */
+    height: 50px; /* Ajuste a altura conforme necessário */
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 10px; /* Ajuste o preenchimento interno conforme necessário */
 }
